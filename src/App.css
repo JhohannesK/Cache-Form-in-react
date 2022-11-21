@@ -1,0 +1,46 @@
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+}
+
+.myForm {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 1rem;
+	width: 100%;
+}
+
+form {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: column;
+	gap: 1rem;
+	width: 20rem;
+	margin-bottom: 2rem;
+}
+
+input {
+	width: 20rem;
+	padding: 1rem;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+label {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: 0.5rem;
+}
+
+textarea {
+	width: 20rem;
+	padding: 1rem;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
